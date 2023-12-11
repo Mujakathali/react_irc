@@ -1,1 +1,0 @@
-# ❤️ Mujakath Ali's Portfolio 🙏
