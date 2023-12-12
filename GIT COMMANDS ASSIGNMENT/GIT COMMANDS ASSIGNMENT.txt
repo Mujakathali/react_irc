@@ -1,0 +1,121 @@
+GIT COMMANDS:
+
+1)git init
+
+Initialize a new Git repository.
+
+2)git clone [repository]
+
+Clone a repository into a new directory.
+
+3)git add [file]
+
+Add changes in a file to the staging area.
+
+4)git commit -m "message"
+
+Record changes to the repository with a commit message.
+
+5)git status
+
+Show the status of changes as untracked, modified, or staged.
+
+6)git diff
+
+Show changes between commits, commit and working tree, etc.
+
+7)git branch
+
+List all local branches in the current repository.
+
+8)git checkout [branch]
+
+Switch to a different branch.
+
+9)git merge [branch]
+
+Merge changes from one branch into the current branch.
+
+10)git pull
+
+Fetch from and integrate with another repository or a local branch.
+
+11)git push
+
+Update remote refs along with associated objects.
+
+12)git log
+
+Show the commit logs.
+
+13)git remote -v
+
+Show a list of remote repositories and their URLs.
+
+14)git fetch [remote]
+
+Download objects and refs from another repository.
+
+15)git reset [file]
+
+Unstage changes for a specific file.
+
+16)git revert [commit]
+
+Create a new commit that undoes the changes made by a previous commit.
+
+17)git rm [file]
+
+Remove a file from both the working directory and the index.
+
+18)git mv [old] [new]
+
+Move or rename a file, a directory, or a symlink.
+
+19)git show [commit]
+
+Show the changes made in a commit.
+
+20)git fetch --prune
+
+Prune remote-tracking branches that no longer exist on the remote.
+
+21)git tag [tagname]
+
+Create a tag for a specific commit.
+
+22)git stash
+
+Stash changes in a dirty working directory.
+
+23)git cherry-pick [commit]
+
+Apply the changes introduced by some existing commits.
+
+24)git remote add [name] [url]
+
+Add a new remote repository.
+
+25)git remote rm [name]
+
+Remove a remote repository.
+
+26)git blame [file]
+
+Show what revision and author last modified each line of a file.
+
+27)git config --global user.name "[name]"
+
+Set the name you want attached to your commit transactions.
+
+28)git config --global user.email "[email]"
+
+Set the email you want attached to your commit transactions.
+
+29)git log --graph --oneline --all
+
+Show a concise graphical representation of the commit history.
+
+30)git submodule update --init --recursive
+
+Initialize and update submodules in a repository.
