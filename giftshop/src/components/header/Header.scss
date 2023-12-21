@@ -1,0 +1,25 @@
+.header-disable{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    height: 0px;
+}
+.header-active{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    height: 115px;
+}
+
+.topbar-nav-main{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color :#FFFFFF;
+    backdrop-filter: blur(6px);
+}
+.ecotone-active{
+    position: relative;
+    width: 100%;
+   
+}
