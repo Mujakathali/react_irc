@@ -1,0 +1,17 @@
+.logo-main {
+  margin: 0px 0px;
+  height: 8vmin;
+}
+.logo-main-logo {
+  height: 7vmin;
+  width: auto;
+}
+.logo-main a {
+  text-decoration: none;
+}
+.logo-main-title {
+  margin: 5px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: calc(14px + 1vmin);
+}/*# sourceMappingURL=LogoMain.css.map */

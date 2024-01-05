@@ -1,0 +1,115 @@
+.productdetails {
+  min-width: 17rem;
+  min-height: 29rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #0d0c0c;
+  border-radius: 10px;
+  margin: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.productdetails.productdetails:hover {
+  scale: 1.05;
+}
+.productdetails-avatar {
+  width: 100%;
+  min-height: 17rem;
+  overflow: hidden;
+  position: relative;
+}
+.productdetails-avatar-flag {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: rgba(235, 234, 234, 0.86);
+  width: 50px;
+  height: 24px;
+  border-radius: 0px;
+}
+.productdetails-avatar-flag-text {
+  font-weight: 600;
+}
+.productdetails-avatar-img {
+  width: 314px;
+  height: 314px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px 7px 0px 0px;
+}
+.productdetails-content {
+  margin: 0px 10px;
+  padding: 3px;
+  border-radius: 7px;
+  background-color: #C2D995;
+  text-align: left;
+}
+.productdetails-content-h3 {
+  margin: 3px 10px;
+}
+.productdetails-content-h4 {
+  margin: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: black;
+}
+.productdetails-content a {
+  text-decoration: none;
+}
+.productdetails-content-h5 {
+  margin: 3px;
+  font-weight: 500;
+}
+.productdetails-content-desc {
+  margin: 0px 0px 0px 5px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.productdetails-content-color {
+  margin: 3px;
+}
+.productdetails-content-rating {
+  margin: 3px;
+}
+.productdetails-button {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.productdetails-button a {
+  text-decoration: none;
+}
+.productdetails-button :hover {
+  color: #E3D5B8;
+  background-color: rgba(89, 191, 211, 0.8745098039);
+}
+.productdetails-button-details {
+  height: 30px;
+  margin: 5px;
+  border-radius: 48px;
+  border: 0px solid #E3D5B8;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+}
+.productdetails-button-p {
+  font-size: 14px;
+  font-weight: 600;
+  display: contents;
+}
+.productdetails-button-icon {
+  margin: 3px;
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=ProductDetailsItems.css.map */

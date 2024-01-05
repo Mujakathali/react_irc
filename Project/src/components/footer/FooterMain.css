@@ -1,0 +1,122 @@
+* {
+  list-style: none;
+}
+
+.footer {
+  height: -moz-max-content;
+  height: max-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #e6e6e6;
+  margin: auto;
+  padding: 10px;
+  color: rgb(107, 107, 107);
+  list-style: none;
+}
+.footer p {
+  margin: 0px;
+}
+.footer h4 {
+  margin: 10px 0px;
+}
+.footer-title {
+  margin-left: 20px;
+  text-align: left;
+  padding: 10px;
+}
+.footer-title-logo {
+  height: 5vh;
+  width: auto;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+.footer-content-left {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 0px;
+  padding-top: 3px;
+}
+.footer-content-left-url {
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer-content-center {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 0px;
+  padding-top: 3px;
+}
+.footer-content-center-url {
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer-content-right {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 0px;
+  padding-top: 3px;
+}
+.footer-content-right-url {
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer-content-contact {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin-top: 10px;
+  padding-top: 3px;
+  font-size: 14px;
+}
+.footer-social {
+  color: rgb(107, 107, 107);
+  margin-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-social-title {
+  width: 100%;
+}
+.footer-social-contact {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.footer-social-contact-url {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+.footer-social-contact-img {
+  height: 20px;
+  padding: 5px 5px 0px 5px;
+}
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright p {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-Width: 768px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=FooterMain.css.map */

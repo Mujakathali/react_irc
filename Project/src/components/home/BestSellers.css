@@ -1,0 +1,34 @@
+.bestsaler {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.bestsaler-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: Garamond;
+}
+.bestsaler-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.bestsaler-button a {
+  color: #5c5c5c;
+  text-decoration: none;
+}
+.bestsaler-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.bestsaler-container-item {
+  margin: 3px;
+  max-width: 20rem;
+  font-size: medium;
+}/*# sourceMappingURL=BestSellers.css.map */

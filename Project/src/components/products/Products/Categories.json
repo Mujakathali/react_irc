@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name":"Mugs",
+        "path":"products/1"
+
+    },
+    {
+        "id": 2,
+        "name":"Bracelets",
+        "path":"products/2"
+    },
+    {
+        "id": 3,
+        "name":"Cards",
+        "path":"products/3"
+    },
+    {
+        "id": 4,
+        "name":"Balloons",
+        "path":"products/4"
+    },
+    {
+        "id": 5,
+        "name": "Christmas card",
+        "path": "products/5"
+    },
+    {
+        "id": 6,
+        "name": "Wallet",
+        "path": "products/6"
+    },
+    {
+        "id": 7,
+        "name": "Watch",
+        "path": "products/7"
+    },
+    {
+        "id": 8,
+        "name": "Keychain",
+        "path": "products/8"
+    }
+]
